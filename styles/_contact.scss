@@ -1,0 +1,16 @@
+.contact {
+    padding: $pUniversal;
+      
+      &__wrapper .contact {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      &__wrapper__form-wrapper {
+        padding: $pUniversal;
+      }
+      
+      &__wrapper__copy-wrapper {
+        padding-left: $pUniversal;
+      }
+  }

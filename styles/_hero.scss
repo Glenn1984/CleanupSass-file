@@ -1,0 +1,17 @@
+.hero {
+  padding: $pUniversal;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: $cFirst;
+
+    &__img img {
+      display: block;
+      height: auto;
+      width: 15.5em;
+    }
+    
+    &__text {
+      padding: 0 2em 7.5em;
+    }
+}

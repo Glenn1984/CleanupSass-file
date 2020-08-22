@@ -1,0 +1,23 @@
+.featured {
+    padding: $pUniversal;
+      
+      &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      }
+  
+      &__wrapper__image img {
+        width: 300px;
+      }
+      
+      &__wrapper__text {
+
+        @include text-standards();
+          
+        padding-top: 1em;
+      }
+      
+      &__wrapper__text p {
+        @include p-standards($pUniversal);
+      }
+  }

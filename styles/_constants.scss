@@ -1,0 +1,23 @@
+/* Variables */
+$cFirst : rgb(151,210,121);
+$pUniversal : 20px;
+$wUniversal : 100%;
+
+/* End Variables */
+
+
+
+/* Mixins */
+
+@mixin text-standards($pUniversal) {
+    max-width: 700px;
+    text-align: center;
+}
+
+@mixin p-standards($pUniversal) {
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+
+/* End Mixins */

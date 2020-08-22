@@ -1,0 +1,38 @@
+.about {
+    background-color: $cFirst;
+    padding: $pUniversal;
+    
+      &__wrapper {
+        display: flex;
+      }
+  
+      .about__wrapper .about__wrapper__text-about {
+        
+        @include text-standards($pUniversal);
+        
+      }
+    
+      .about__wrapper &__wrapper__text-about p {
+        
+        @include p-standards();
+        
+        padding-bottom: 1em;
+      }
+  
+      &__wrapper__video-wrapper {
+        position: relative;
+        padding-bottom: 33.25%;
+        overflow: hidden;
+        align-self: center;
+        flex: 2 0 55%;
+        margin: 1.4em 0;
+      }
+      
+      &__wrapper__video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $wUniversal;
+        height: 100%;
+      }
+    }
